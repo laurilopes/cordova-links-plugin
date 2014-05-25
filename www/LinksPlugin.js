@@ -4,7 +4,7 @@ var exec = require('cordova/exec');
  */
 function LinksPlugin() {}
 
-TtsPlugin.prototype.openLink = function(link) {
+LinksPlugin.prototype.openLink = function(link) {
     exec(function(result){
         },
         function(error){
