@@ -6,6 +6,7 @@
         import org.json.JSONException;
         import android.content.Intent;
         import android.net.Uri;
+        import android.app.Activity;
 
         public class LinksPlugin extends CordovaPlugin{
 
