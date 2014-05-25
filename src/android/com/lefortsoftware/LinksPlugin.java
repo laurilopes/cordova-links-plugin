@@ -5,14 +5,8 @@
         import org.json.JSONArray;
         import org.json.JSONException;
 
-        import android.speech.links.TextToSpeech;
-        import java.util.Locale;
-
-        import android.widget.Toast;
-
         public class LinksPlugin extends CordovaPlugin{
 
-        TextToSpeech links;
         CallbackContext cbc;
 
         @Override
