@@ -1,7 +1,7 @@
 #cordova-links-plugin
 =======================
 
-Open links in browser with Cordova3
+Open links in default browser with Cordova3
 Works on iOS and Android
 
 
