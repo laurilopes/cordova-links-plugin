@@ -19,8 +19,12 @@
 
         if(action.equals("openlink")){
             String url = args.getString(0);
+            
+            Context context=this.cordova.getActivity().getApplicationContext();
+            
             Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-            cbc.startActivity(browserIntent);
+            context.startActivity(browserIntent);
+            
             callbackContext.success("OK");
             return true;
         }
