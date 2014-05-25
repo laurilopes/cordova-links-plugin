@@ -4,6 +4,7 @@
         import org.apache.cordova.CordovaPlugin;
         import org.json.JSONArray;
         import org.json.JSONException;
+        import android.content.Intent;
 
         public class LinksPlugin extends CordovaPlugin{
 
