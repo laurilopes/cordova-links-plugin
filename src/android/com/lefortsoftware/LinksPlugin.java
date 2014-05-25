@@ -20,11 +20,6 @@
 
         if(action.equals("openlink")){
             String url = args.getString(0);
-            /*
-            Context context=this.cordova.getActivity().getApplicationContext();
-            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-            context.startActivity(browserIntent);
-            */
             Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
             this.cordova.getActivity().startActivity(intent);
     
